@@ -1,4 +1,4 @@
-//Array of after school classes
+//Array of after school classes including all the relavant data
 let data = [
     {
             id: 1000,
