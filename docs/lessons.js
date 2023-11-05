@@ -1,3 +1,4 @@
+//Array of after school classes
 let data = [
     {
             id: 1000,
@@ -20,7 +21,7 @@ let data = [
     {    
             id: 1002,
             subject: "Science",
-            location: "Germany",
+            location: "France",
             price:  "150" ,
             newImg: 'img/science1.jpg',
             availableInventory: 10 
@@ -29,7 +30,7 @@ let data = [
     {    
             id: 1003,
             subject: "Art",
-            location: "Germany",
+            location: "London",
             price:  "50" ,
             newImg: 'img/art.jpg',
             availableInventory: 10 
@@ -38,7 +39,7 @@ let data = [
     {    
             id: 1004,
             subject: "Music",
-            location: "Germany",
+            location: "France",
             price:  "80" ,
             newImg: 'img/music.jpg',
             availableInventory: 10 
@@ -56,7 +57,7 @@ let data = [
     {    
              id: 1006,
             subject: "Geography",
-            location: "London",
+            location: "France",
             price:  "150" ,
             newImg: 'img/geography.jpg',
             availableInventory: 10 
@@ -74,7 +75,7 @@ let data = [
     {    
             id: 1008,
             subject: "English",
-            location: "Germany",
+            location: "New York",
             price:  "150" ,
             newImg: 'img/english.jpg',
             availableInventory: 10
@@ -83,7 +84,7 @@ let data = [
     {    
             id: 1009,
             subject: "Science",
-            location: "Germany",
+            location: "London",
             price:  "150" ,
             newImg: 'img/science1.jpg',
             availableInventory: 10 
