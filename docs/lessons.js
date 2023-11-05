@@ -14,7 +14,7 @@ let data = [
             location: "France",
             price: "200",
             newImg: 'img/maths.jpg',
-            availableInventory: 6 
+            availableInventory: 10 
 
     },
     {    
@@ -23,7 +23,7 @@ let data = [
             location: "Germany",
             price:  "150" ,
             newImg: 'img/science1.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     },
     {    
@@ -32,7 +32,7 @@ let data = [
             location: "Germany",
             price:  "50" ,
             newImg: 'img/art.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     },
     {    
@@ -41,7 +41,7 @@ let data = [
             location: "Germany",
             price:  "80" ,
             newImg: 'img/music.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     },
     {    
@@ -50,7 +50,7 @@ let data = [
             location: "London",
             price:  "50" ,
             newImg: 'img/history.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     },
     {    
@@ -59,7 +59,7 @@ let data = [
             location: "London",
             price:  "150" ,
             newImg: 'img/geography.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     },
     {    
@@ -68,7 +68,7 @@ let data = [
             location: "Germany",
             price:  "150" ,
             newImg: 'img/cs.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     },
     {    
@@ -77,7 +77,7 @@ let data = [
             location: "Germany",
             price:  "150" ,
             newImg: 'img/english.jpg',
-            availableInventory: 4 
+            availableInventory: 10
 
     },
     {    
@@ -86,7 +86,7 @@ let data = [
             location: "Germany",
             price:  "150" ,
             newImg: 'img/science1.jpg',
-            availableInventory: 4 
+            availableInventory: 10 
 
     }
 ]
