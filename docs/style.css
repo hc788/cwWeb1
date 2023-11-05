@@ -1,16 +1,22 @@
-
+/* style of title of the page*/
 h1{
   text-align: center;
 }
 
+#title{
 
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* style and design of img */
 img{
     align-items: center;
     width: 200px;
     height: 200px;
     margin-bottom: 10px;
   }
-  
+  /* style of sorting */
   #mainContainer{
     display: flex;
     flex-direction: row;
@@ -27,31 +33,12 @@ img{
     margin-bottom: 20px;
   }
 
-  #checkoutButton{
-    position: absolute;
-    top: 50px;
-    right: 20px;
-    border-radius: 40px;
-    padding: 10px 20px;
-    border: none;
-    background-color: antiquewhite;
-
-  }
-
-  #checkoutButton:hover{
-    padding: 15px 30px;
-    background-color: aqua;
-    transition: all 0.3s ease-out;
-    cursor: pointer ;
-
-  }
-
   .input{
     width: 200px;
   }
 
 
-
+ /* style and display of list of lessons  */
   .listOfLessons{
     width: 280px;
     height: 430px;
@@ -73,6 +60,8 @@ img{
     flex-wrap: wrap;
     width: 80%;
   }
+
+   /* style of seach bar and button */
 
   .search-box{
       
@@ -128,25 +117,32 @@ img{
     color:black;
   }
 
+   /* style and layout of checkout button */
 
-  #title{
+  #checkoutButton{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: antiquewhite;
 
-     font-size: 20px;
-     margin-bottom: 10px;
   }
+
+  #checkoutButton:hover{
+    padding: 15px 30px;
+    background-color: aqua;
+    transition: all 0.3s ease-out;
+    cursor: pointer ;
+
+  }
+
+/* style and layout of add to cart  button */
 
   .addToCartButton{
     background-color:red;
     color: white;
     margin-left: 10px;
   }
-
-  #styleText{
-
-     padding: 200px;
-     margin-top: -380px;
-     margin-left: -40px;
-     margin-right: 570px;
-     margin-bottom: 400px;
-    
-  }
+ 
