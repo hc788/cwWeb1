@@ -89,19 +89,19 @@ let app = new Vue({
         },
         ///fix this function
         //search fucntion that gives the user a option to search for a specific lesson they want
-        searchLessson:  function() { 
-            let input = document.getElementById('search-input').value 
-            input=input.toLowerCase(); 
-            let x = document.getElementsByClassName('data'); 
-            
-            for (i = 0; i < x.length; i++) { 
-                if (!x[i].innerHTML.toLowerCase().includes(input)) { 
-                    x[i].style.display="none"; 
-                } 
-                else { 
-                    x[i].style.display="list-item";				 
-                } 
-            } 
+        searchLessson: function () {
+            let input = document.getElementById('search-input').value
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('data');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                }
+                else {
+                    x[i].style.display = "list-item";
+                }
+            }
         },
     },
     computed: {
@@ -179,7 +179,7 @@ let app = new Vue({
             });
 
         },
-                
+
 
     },
 });
