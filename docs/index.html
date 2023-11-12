@@ -26,10 +26,11 @@
                 Checkout
             </button>
             <!--seach bar for lessons -->
-            <div class="search-box">
-                <input class="search-input" type="text" placeholder="Search for lesson..">
-                <button class="search-btn"><i class="fas fa-search"></i></button>
-            </div>
+                <div class="search-box">
+                    <input class="search-input" type="text"  v-model="searchLesson"  placeholder="Search for lesson..">
+                    <button class="search-btn"></button>
+                </div>
+        
         </header>
         <div>
             <main>
@@ -74,7 +75,7 @@
                     <!--Main Page-->
                     <!--Display of all lessons on the main page of the webapp-->
                     <div id="listOfLessons">
-                        <div class="listOfLessons" v-for="lesson in sortedProducts">
+                        <div class="listOfLessons" v-for="lesson in filteredLessons">
                             <!--img displayed of each lesson-->
                             <figure>
                                 <img v-bind:src="lesson.newImg" />
@@ -118,8 +119,7 @@
                     <h2>Order Information</h2>
                     <div class="form-group">
                         <div class="col-md-6 boxes">
-                            <input type="checkbox" id="gift" value="true" v-bind:false-value="order.dontSendGift"
-                                v-model="order.gift">
+                            <input type="checkbox" id="gift" value="true" v-bind:false-value="order.dontSendGift" v-model="order.gift">
                             <label for="gift">Ship As Gift?</label>
                         </div>
                     </div>

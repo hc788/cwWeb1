@@ -19,7 +19,7 @@ let app = new Vue({
         cart: [],
         sortBy: 'Subject',
         direction: 'Asending',
-        searchLesson: 'Search for lesson..'
+        searchLesson: ''
 
     },
     created() {
@@ -27,7 +27,7 @@ let app = new Vue({
     },
 
     methods: {
-        //the data that cones from the data array in lessons.js
+        //the data that comes from the data array in lessons.js
         getData: function () {
             this.lessons = data;
         },
@@ -87,22 +87,7 @@ let app = new Vue({
                 return event.preventDefault();
             }
         },
-        ///fix this function
-        //search fucntion that gives the user a option to search for a specific lesson they want
-        searchLessson: function () {
-            let input = document.getElementById('search-input').value
-            input = input.toLowerCase();
-            let x = document.getElementsByClassName('data');
-
-            for (i = 0; i < x.length; i++) {
-                if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                    x[i].style.display = "none";
-                }
-                else {
-                    x[i].style.display = "list-item";
-                }
-            }
-        },
+        
     },
     computed: {
         //function that counts the item in the cart 
@@ -178,6 +163,12 @@ let app = new Vue({
 
             });
 
+        },
+         //search functionality
+         filteredLessons() {
+            return this.sortedProducts.filter((lesson) => {
+                return lesson.subject.match(this.searchLesson);
+            });
         },
 
 
